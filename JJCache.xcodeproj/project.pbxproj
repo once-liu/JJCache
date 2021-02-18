@@ -16,6 +16,7 @@
 		96CBF7A125DE4774007536E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7A025DE4774007536E4 /* main.m */; };
 		96CBF7AB25DE4774007536E4 /* JJCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7AA25DE4774007536E4 /* JJCacheTests.m */; };
 		96CBF7B625DE4774007536E4 /* JJCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7B525DE4774007536E4 /* JJCacheUITests.m */; };
+		96CBF7C925DE48AC007536E4 /* JJMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7C825DE48AC007536E4 /* JJMemoryCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		96CBF7B125DE4774007536E4 /* JJCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CBF7B525DE4774007536E4 /* JJCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCacheUITests.m; sourceTree = "<group>"; };
 		96CBF7B725DE4774007536E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CBF7C725DE48AC007536E4 /* JJMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMemoryCache.h; sourceTree = "<group>"; };
+		96CBF7C825DE48AC007536E4 /* JJMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMemoryCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		96CBF78D25DE4771007536E4 /* JJCache */ = {
 			isa = PBXGroup;
 			children = (
+				96CBF7C625DE488D007536E4 /* JJCache */,
 				96CBF78E25DE4771007536E4 /* AppDelegate.h */,
 				96CBF78F25DE4771007536E4 /* AppDelegate.m */,
 				96CBF79125DE4771007536E4 /* SceneDelegate.h */,
@@ -135,6 +139,15 @@
 				96CBF7B725DE4774007536E4 /* Info.plist */,
 			);
 			path = JJCacheUITests;
+			sourceTree = "<group>";
+		};
+		96CBF7C625DE488D007536E4 /* JJCache */ = {
+			isa = PBXGroup;
+			children = (
+				96CBF7C725DE48AC007536E4 /* JJMemoryCache.h */,
+				96CBF7C825DE48AC007536E4 /* JJMemoryCache.m */,
+			);
+			path = JJCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CBF7C925DE48AC007536E4 /* JJMemoryCache.m in Sources */,
 				96CBF79625DE4771007536E4 /* ViewController.m in Sources */,
 				96CBF79025DE4771007536E4 /* AppDelegate.m in Sources */,
 				96CBF7A125DE4774007536E4 /* main.m in Sources */,
