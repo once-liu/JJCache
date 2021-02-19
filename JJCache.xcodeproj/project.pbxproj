@@ -18,6 +18,7 @@
 		96CBF7B625DE4774007536E4 /* JJCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7B525DE4774007536E4 /* JJCacheUITests.m */; };
 		96CBF7C925DE48AC007536E4 /* JJMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7C825DE48AC007536E4 /* JJMemoryCache.m */; };
 		96CBF7D225DF5AFE007536E4 /* JJDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7D125DF5AFE007536E4 /* JJDiskCache.m */; };
+		96CBF7D825DF608A007536E4 /* JJKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7D725DF608A007536E4 /* JJKVStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		96CBF7C825DE48AC007536E4 /* JJMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMemoryCache.m; sourceTree = "<group>"; };
 		96CBF7D025DF5AFE007536E4 /* JJDiskCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJDiskCache.h; sourceTree = "<group>"; };
 		96CBF7D125DF5AFE007536E4 /* JJDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDiskCache.m; sourceTree = "<group>"; };
+		96CBF7D625DF608A007536E4 /* JJKVStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJKVStorage.h; sourceTree = "<group>"; };
+		96CBF7D725DF608A007536E4 /* JJKVStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJKVStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				96CBF7C825DE48AC007536E4 /* JJMemoryCache.m */,
 				96CBF7D025DF5AFE007536E4 /* JJDiskCache.h */,
 				96CBF7D125DF5AFE007536E4 /* JJDiskCache.m */,
+				96CBF7D625DF608A007536E4 /* JJKVStorage.h */,
+				96CBF7D725DF608A007536E4 /* JJKVStorage.m */,
 			);
 			path = JJCache;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				96CBF79025DE4771007536E4 /* AppDelegate.m in Sources */,
 				96CBF7A125DE4774007536E4 /* main.m in Sources */,
 				96CBF79325DE4771007536E4 /* SceneDelegate.m in Sources */,
+				96CBF7D825DF608A007536E4 /* JJKVStorage.m in Sources */,
 				96CBF7D225DF5AFE007536E4 /* JJDiskCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
