@@ -19,6 +19,7 @@
 		96CBF7C925DE48AC007536E4 /* JJMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7C825DE48AC007536E4 /* JJMemoryCache.m */; };
 		96CBF7D225DF5AFE007536E4 /* JJDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7D125DF5AFE007536E4 /* JJDiskCache.m */; };
 		96CBF7D825DF608A007536E4 /* JJKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7D725DF608A007536E4 /* JJKVStorage.m */; };
+		96CBF7DE25DFB74C007536E4 /* JJCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF7DD25DFB74C007536E4 /* JJCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		96CBF7D125DF5AFE007536E4 /* JJDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDiskCache.m; sourceTree = "<group>"; };
 		96CBF7D625DF608A007536E4 /* JJKVStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJKVStorage.h; sourceTree = "<group>"; };
 		96CBF7D725DF608A007536E4 /* JJKVStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJKVStorage.m; sourceTree = "<group>"; };
+		96CBF7DC25DFB74C007536E4 /* JJCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJCache.h; sourceTree = "<group>"; };
+		96CBF7DD25DFB74C007536E4 /* JJCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 		96CBF7C625DE488D007536E4 /* JJCache */ = {
 			isa = PBXGroup;
 			children = (
+				96CBF7DC25DFB74C007536E4 /* JJCache.h */,
+				96CBF7DD25DFB74C007536E4 /* JJCache.m */,
 				96CBF7C725DE48AC007536E4 /* JJMemoryCache.h */,
 				96CBF7C825DE48AC007536E4 /* JJMemoryCache.m */,
 				96CBF7D025DF5AFE007536E4 /* JJDiskCache.h */,
@@ -293,6 +298,7 @@
 				96CBF79625DE4771007536E4 /* ViewController.m in Sources */,
 				96CBF79025DE4771007536E4 /* AppDelegate.m in Sources */,
 				96CBF7A125DE4774007536E4 /* main.m in Sources */,
+				96CBF7DE25DFB74C007536E4 /* JJCache.m in Sources */,
 				96CBF79325DE4771007536E4 /* SceneDelegate.m in Sources */,
 				96CBF7D825DF608A007536E4 /* JJKVStorage.m in Sources */,
 				96CBF7D225DF5AFE007536E4 /* JJDiskCache.m in Sources */,
